@@ -1,13 +1,12 @@
 # Libtorch（C++）实现AlexNet神经网络
 ## 注意
-需要安装opencv(C++版本)以及Libtorch才能运行哦！！！\
+程序需要安装opencv(C++版本)以及Libtorch才能运行哦！！！\
 
 使用的Libtorch版本为1.7.1,此代码对应的博客地址为：\
-https://blog.csdn.net/ing100/article/details/129621206
 
-此代码对应的pytorch（python）版本的博客地址为: \
+此代码对应的pybtorch（python）版本的博客地址为: \
 https://blog.csdn.net/ing100/article/details/129519614 \
-以及python版本的代码地址为:\
+以及代码地址为:\
 https://github.com/inging550/AlexNet-Pytorch-
 
 博客中使用的0~9手写数据集下载地址如下：\

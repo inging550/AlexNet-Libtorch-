@@ -39,6 +39,7 @@ void dataSetClc::load_data_from_folder(std::string path, std::string type, std::
 	} while (_findnext(hFile, &fileInfo) == 0);
 }
 
+// 重写get()方法
 torch::data::Example<> dataSetClc::get(size_t index)
 {
 	std::string image_path = image_paths.at(index);  //vector的切片
@@ -52,6 +53,7 @@ torch::data::Example<> dataSetClc::get(size_t index)
 	return { img_tensor, label_tensor };
 }
 
+// 重写size()方法
 torch::optional<size_t> dataSetClc::size() const
 {
 	return image_paths.size();
